@@ -1,0 +1,417 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+ul li{
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    margin-left: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.container1{
+    background-image:  linear-gradient(to top, rgba(34, 32, 36, 0.878), rgba(60, 15, 82, 0.456)),url(/assets/images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 847px;
+    
+}
+
+.home1{
+    color: white;
+    &:hover{
+        border: 3px solid green;
+        border-radius: 25px;
+        padding: 10px 20px;
+        background-color: green;
+        transition: .1s;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 30px 20px 40px 40px;
+    justify-content: space-between;
+
+    .brand{
+        font-size: 30px;
+        display: flex;
+        h3{
+            margin-left: 20px;
+        }
+
+    }
+    .home ul li{
+        margin-left: 30px;
+        margin-right: 20px;
+        font-size: 20px;
+        
+
+    }
+    
+
+    .btn{
+        width: 90px;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 18px;
+        margin-right: 10px;
+        background-color: #1F45FC;
+        &:hover{
+            transition: .3s;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+    
+}
+
+.imgbrand{
+    width: 45px;
+    height: 45px;
+}
+
+/////////////    ticker     //////////
+
+.ticker{
+    width: 100%;
+    height: 90px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .objects{
+        border: solid 3px #2e3f53;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 35px;
+        margin: 10px 0px;
+
+        .img2{
+            width: 44px;
+            height: 44px;
+        }
+
+        .price{
+            width: auto;
+            margin-right: 10px;
+            text-align: center;
+        }
+        p{
+            margin-bottom: 0px;
+        }
+       
+
+    }
+   
+}
+
+
+/////////////   Wlcm //////////    
+
+
+.welcome{
+    width: 100%;
+    height: 628px;
+    border: 2px red soild;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    .txt{
+        width: 45%;
+        height: auto;
+        font-size: 40px;
+        padding-top: 120px;
+        padding-left: 110px;
+        overflow: hidden;
+        p{
+            font-size: 25px;
+        }
+        h2{
+            font-weight: bolder;
+            font-size: 60px;
+        }
+        .buy{
+            padding-left: 50px;
+            margin-top: 20px;
+        }
+        .buybtn{
+            width: 100px;
+            height: auto;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 30px;
+            // margin-left: 30px;
+            background-color: green;
+            &:hover{
+                transition: .3s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+    
+        }
+        .sellbtn{
+            width: 100px;
+            height: auto;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 30px;
+            margin-left: 30px;
+            background-color: red;
+            &:hover{
+                transition: .3s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+
+        }
+    }
+    .png{
+        border: 2px red soild;
+        width: 45%;
+        height: auto;
+        padding-top: 0px;
+        // overflow: hidden;
+        .img3{
+            width: 600px;
+            height: 650px;
+            padding: 40px 20px;
+            overflow: hidden;
+            
+        }
+       
+    }
+    
+}
+
+
+////// Sponsors //////////  
+
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    background-color: #191A19;
+    border-top: 2px solid grey;
+
+
+    .names{
+        width: 300px;
+        height: 100px;
+        margin-top: 40px;
+        padding-top: 18px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #191A19;
+        h1{
+            color: rgb(146, 138, 138);
+            font-size: 50px;
+            text-align: center;
+            justify-content: center;
+        }
+        .spons{
+            height: 80px;
+            width: 80px;
+        }
+       
+    
+    }
+}
+
+//////  Table /////////    
+
+.ranks{
+    width: 100%;
+    height: auto;
+    border-top: 2px solid grey;
+    padding-top: 60px;
+    background-image:  linear-gradient(to top, rgba(27, 32, 36, 0.508), rgba(31, 29, 32, 0.853)),url(/assets/images/back.jpg);
+    .heading{
+        text-align: center;
+        margin: 30px 0px;     
+        font-size: 20px;
+        h1{
+            color: rgb(229, 215, 215);
+        }
+        p{
+            color: rgb(184, 179, 179);
+
+        }
+
+        
+    }
+    .options{
+        // width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        // border: 2px solid red;
+        display: flex;
+        justify-content: center;
+        .option1{
+            width: 30%;
+            // border: 4px solid red;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            .obj{
+                width: 24%;
+                padding: 0px 4px;
+                border: 3px solid green;
+                border-radius: 30px;
+                p{
+                    padding: 4px;
+                    color: white;
+                    
+                }
+                &:hover{
+                    background-color: green;
+                }
+            }
+        }
+        
+    }
+    
+    .tables{
+        .tables1{
+            border-top: 2px solid grey;
+            border-bottom: 2px solid grey;
+            margin-left: 170px;
+            width: 1180px;
+            padding: 20px ;
+            th td{
+                padding: 24px 30px;
+            }
+
+            thead tr{
+                font-weight: bold;
+                font-size: 22px;  
+                border-bottom: 2px solid grey;  
+                margin: 10px;     
+            }
+            tbody tr{
+                text-align: left;
+               
+            }
+            .change{
+                text-align: center;
+            }
+            
+        }
+    }
+}
+
+/////////////   MArket News /////////
+
+
+.news{
+    width: 100%;
+    height: 830px;
+    border: 2px solid rgb(25, 23, 23);
+    background-image:  linear-gradient(to top, rgba(27, 32, 36, 0.508), rgba(23, 12, 28, 0.527)),url(/assets/images/back.jpg);
+
+
+    .market_news{
+        width: 100%;
+        height: auto;
+        // border: 2px solid red;
+        text-align: center;
+        padding-top: 50px;
+        h2{
+            font-size: 45px;
+        }
+        p{
+            font-size: 20px;
+        }
+
+    }
+    .news_card{
+        // border: 2px solid red;
+        width: 80%;
+        margin-left: 150px;
+        margin-top: 50px;
+        height: auto;
+        h5{
+            color: #191A19;
+        }
+        p{
+            color: #191A19;
+        }
+        
+
+    }
+
+
+
+}
+
+//////////   Footer ///////   
+
+
+.foot{
+    width: 100%;
+    height: 100px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey; 
+    background-color: #191A19;
+    display: flex;
+    // justify-content: space-around;
+
+    .foot1{
+        padding-top: 35px;
+        padding-left: 70px;
+        p{
+            color: rgb(171, 165, 165);
+            font-weight: bold;
+
+        }
+
+    }
+    
+
+    .foot12{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        margin-left: 800px;
+        float: right;
+        color: rgb(171, 165, 165);
+        h3{
+            color: rgb(171, 165, 165);
+            font-weight: bold;
+        }
+        .owner{
+            padding-top: 2px;
+            padding-left: 20px;
+            p{
+            color: rgb(171, 165, 165);
+            font-weight: bold;
+            font-size: 20px;
+            }
+        }
+
+        
+    }
+}
+

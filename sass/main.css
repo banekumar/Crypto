@@ -1,0 +1,340 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container1 {
+  background-image: linear-gradient(to top, rgba(34, 32, 36, 0.878), rgba(60, 15, 82, 0.456)), url(/assets/images/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 847px;
+}
+
+.home1 {
+  color: white;
+}
+.home1:hover {
+  border: 3px solid green;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: green;
+  transition: 0.1s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  padding: 30px 20px 40px 40px;
+  justify-content: space-between;
+}
+.top .brand {
+  font-size: 30px;
+  display: flex;
+}
+.top .brand h3 {
+  margin-left: 20px;
+}
+.top .home ul li {
+  margin-left: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.top .btn {
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 18px;
+  margin-right: 10px;
+  background-color: #1F45FC;
+}
+.top .btn:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.imgbrand {
+  width: 45px;
+  height: 45px;
+}
+
+.ticker {
+  width: 100%;
+  height: 90px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ticker .objects {
+  border: solid 3px #2e3f53;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 35px;
+  margin: 10px 0px;
+}
+.ticker .objects .img2 {
+  width: 44px;
+  height: 44px;
+}
+.ticker .objects .price {
+  width: auto;
+  margin-right: 10px;
+  text-align: center;
+}
+.ticker .objects p {
+  margin-bottom: 0px;
+}
+
+.welcome {
+  width: 100%;
+  height: 628px;
+  border: 2px red soild;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.welcome .txt {
+  width: 45%;
+  height: auto;
+  font-size: 40px;
+  padding-top: 120px;
+  padding-left: 110px;
+  overflow: hidden;
+}
+.welcome .txt p {
+  font-size: 25px;
+}
+.welcome .txt h2 {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.welcome .txt .buy {
+  padding-left: 50px;
+  margin-top: 20px;
+}
+.welcome .txt .buybtn {
+  width: 100px;
+  height: auto;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: green;
+}
+.welcome .txt .buybtn:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.welcome .txt .sellbtn {
+  width: 100px;
+  height: auto;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  margin-left: 30px;
+  background-color: red;
+}
+.welcome .txt .sellbtn:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.welcome .png {
+  border: 2px red soild;
+  width: 45%;
+  height: auto;
+  padding-top: 0px;
+}
+.welcome .png .img3 {
+  width: 600px;
+  height: 650px;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  background-color: #191A19;
+  border-top: 2px solid grey;
+}
+.sponsors .names {
+  width: 300px;
+  height: 100px;
+  margin-top: 40px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #191A19;
+}
+.sponsors .names h1 {
+  color: rgb(146, 138, 138);
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.sponsors .names .spons {
+  height: 80px;
+  width: 80px;
+}
+
+.ranks {
+  width: 100%;
+  height: auto;
+  border-top: 2px solid grey;
+  padding-top: 60px;
+  background-image: linear-gradient(to top, rgba(27, 32, 36, 0.508), rgba(31, 29, 32, 0.853)), url(/assets/images/back.jpg);
+}
+.ranks .heading {
+  text-align: center;
+  margin: 30px 0px;
+  font-size: 20px;
+}
+.ranks .heading h1 {
+  color: rgb(229, 215, 215);
+}
+.ranks .heading p {
+  color: rgb(184, 179, 179);
+}
+.ranks .options {
+  height: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.ranks .options .option1 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.ranks .options .option1 .obj {
+  width: 24%;
+  padding: 0px 4px;
+  border: 3px solid green;
+  border-radius: 30px;
+}
+.ranks .options .option1 .obj p {
+  padding: 4px;
+  color: white;
+}
+.ranks .options .option1 .obj:hover {
+  background-color: green;
+}
+.ranks .tables .tables1 {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin-left: 170px;
+  width: 1180px;
+  padding: 20px;
+}
+.ranks .tables .tables1 th td {
+  padding: 24px 30px;
+}
+.ranks .tables .tables1 thead tr {
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 2px solid grey;
+  margin: 10px;
+}
+.ranks .tables .tables1 tbody tr {
+  text-align: left;
+}
+.ranks .tables .tables1 .change {
+  text-align: center;
+}
+
+.news {
+  width: 100%;
+  height: 830px;
+  border: 2px solid rgb(25, 23, 23);
+  background-image: linear-gradient(to top, rgba(27, 32, 36, 0.508), rgba(23, 12, 28, 0.527)), url(/assets/images/back.jpg);
+}
+.news .market_news {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.news .market_news h2 {
+  font-size: 45px;
+}
+.news .market_news p {
+  font-size: 20px;
+}
+.news .news_card {
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 50px;
+  height: auto;
+}
+.news .news_card h5 {
+  color: #191A19;
+}
+.news .news_card p {
+  color: #191A19;
+}
+
+.foot {
+  width: 100%;
+  height: 100px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  background-color: #191A19;
+  display: flex;
+}
+.foot .foot1 {
+  padding-top: 35px;
+  padding-left: 70px;
+}
+.foot .foot1 p {
+  color: rgb(171, 165, 165);
+  font-weight: bold;
+}
+.foot .foot12 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-left: 800px;
+  float: right;
+  color: rgb(171, 165, 165);
+}
+.foot .foot12 h3 {
+  color: rgb(171, 165, 165);
+  font-weight: bold;
+}
+.foot .foot12 .owner {
+  padding-top: 2px;
+  padding-left: 20px;
+}
+.foot .foot12 .owner p {
+  color: rgb(171, 165, 165);
+  font-weight: bold;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
